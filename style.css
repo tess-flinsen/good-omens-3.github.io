@@ -26,14 +26,10 @@ body {
 .spaced-list li{
     margin-bottom: 10px;
 }
-.image {
-    width: 300px;
-    height: 400px;
-}
+
 .container div{
     padding: 10px;
     max-width: 100%;
-    resize: text;
     overflow: auto;
 }
 
@@ -48,6 +44,11 @@ body {
     grid-column-start: 1;
     grid-column-end: 4;
     justify-content: space-between;
+}
+
+.image {
+    width: 300px;
+    height: 400px;
 }
 .alignright {
     text-align: right;
